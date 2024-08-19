@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+  font-family:"roboto", "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+ul {
+  background-color: ghostwhite;
+  width: 100%;
+  z-index: 999;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul a {
+  text-decoration: none;
+}
+.welcoming {
+  background-color: antiquewhite;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.social-icons a {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+}
+#services {
+  background-color: rgba(24, 21, 29, 0.204);
+  margin-bottom: 30px;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+img {
+  width: 300px;
+  height: auto;
+}
+.card {
+    margin: 10px;
+    background-color: rgba(0, 255, 255, 0.281);
+    width: 350px;
+    justify-content: space-between;
+    border-style: ridge;
+    border-color: black;
+    border: width 50px;
+}
+.cardcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#projects {
+    background-color: rgba(171, 249, 255, 0.322);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.card_container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+p + a {
+    text-decoration: none;
+    color: rgb(240, 12, 92);
+}
+footer{
+    background-color: black;
+}
+span{
+    color: aqua;
+}
+#contacts{
+    justify-content: center;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.info {
+  background-color: rgb(230, 17, 17);
+  justify-content: center;
+  display: flex;
+}
+.lol{
+  background-color: hsla(99, 83%, 50%, 0.445);
+  margin-bottom: 100px;
+  padding-bottom: 20px;
+  top: 0;
+}
